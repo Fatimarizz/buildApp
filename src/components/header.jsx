@@ -5,6 +5,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Products = [
   {
     name: "Product",
@@ -222,19 +223,20 @@ export default function Navbar() {
                           aria-hidden="true"
                         />
                       </div>
-                     
-                          <a
-                            href="/login"
+                     <Link 
+                        
+                            to="/login"
                             className="ml-4  whitespace-nowrap text-base font-normal hover:text-gray-300 text-white"
-                          >
-                            Login
-                          </a>
-                          <a
-                            href="/register"
+                         
+                            >
+                              Login
+                          </Link>
+                          <Link
+                            to="/register"
                             className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-light-purple to-dark-purple bg-origin-border px-5 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                           >
                             Get Started
-                          </a>
+                          </Link>
                         </>
                       ) : 
                       (
