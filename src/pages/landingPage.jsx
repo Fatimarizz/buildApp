@@ -133,7 +133,7 @@ export const LandingPage = () => {
 
         <div className="relative ">
           <video className="my-5 h-[380px] sm:h-[320px] sm:w-[350px] lg:h-[538px] lg:w-[470px] w-[300px] rounded-lg" controls>
-            <source src="./video.mp4" type="video/mp4" />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UwbCIZTx59I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </video>
           <img
             src='./Invoice-card.png'

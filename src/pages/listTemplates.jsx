@@ -23,7 +23,7 @@ export const ListTemplates = () => {
         <div className="sm:flex-auto sm:justify-center">
         <img
               src="./circle.png"
-              className="absolute h-16 sm:h-32 sm:w-56 top-24 sm:top-16 sm:left-24  md:left-40 left-36 lg:top-16 lg:left-[16rem] xl:left-[37rem] "
+              className="absolute h-16 sm:h-32 sm:w-56 top-24 sm:top-16 sm:left-24  md:left-40 left-36 lg:top-16 lg:left-[16rem] xl:left-[32rem] "
             />
           <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-center">Templates</h1>
           <p className="mt-5 text-sm text-white text-center">
